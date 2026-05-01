@@ -4,20 +4,9 @@ Claude Code plugin that checks GitHub repositories for compliance with [AI agent
 
 ## Installation
 
-Add the marketplace to your Claude Code settings, then install the plugin:
-
-```bash
-# Add the marketplace
-claude settings add-marketplace "https://raw.githubusercontent.com/etirelli/ai-scaffolding/main/.claude-plugin/marketplace.json"
-
-# Install the plugin
-/install ai-scaffolding
 ```
-
-Or install directly from the CLI:
-
-```bash
-claude plugin install --marketplace "https://raw.githubusercontent.com/etirelli/ai-scaffolding/main/.claude-plugin/marketplace.json" ai-scaffolding
+/plugin marketplace add etirelli/ai-scaffolding
+/plugin install ai-scaffolding
 ```
 
 ## Usage
