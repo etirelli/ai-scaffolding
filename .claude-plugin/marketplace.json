@@ -1,0 +1,31 @@
+{
+  "name": "ai-scaffolding",
+  "description": "AI Scaffolding Skills — check repositories for AI agent scaffolding best practices compliance.",
+  "owner": {
+    "name": "etirelli"
+  },
+  "plugins": [
+    {
+      "name": "ai-scaffolding",
+      "version": "0.1.0",
+      "description": "Check GitHub repositories for compliance with AI agent scaffolding best practices (Tier 1). Generates a pass/warn/fail report for single-command tests, minimal context file, single-file lint/type-check, and CI quality gates.",
+      "category": "development",
+      "keywords": ["ai-agent", "scaffolding", "best-practices", "compliance", "tier-1"],
+      "author": {
+        "name": "Edson Tirelli"
+      },
+      "homepage": "https://github.com/etirelli/ai-scaffolding",
+      "repository": "https://github.com/etirelli/ai-scaffolding",
+      "license": "Apache-2.0",
+      "source": {
+        "source": "github",
+        "repo": "etirelli/ai-scaffolding",
+        "ref": "main"
+      },
+      "skills": [
+        "./.claude/skills"
+      ],
+      "strict": false
+    }
+  ]
+}
