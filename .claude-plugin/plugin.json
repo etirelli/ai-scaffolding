@@ -1,0 +1,12 @@
+{
+  "name": "repo-scaf",
+  "version": "0.1.0",
+  "description": "Check GitHub repositories for compliance with AI agent scaffolding best practices (Tier 1)",
+  "author": {
+    "name": "Edson Tirelli",
+    "email": "etirelli@redhat.com"
+  },
+  "repository": "https://github.com/etirelli/repo-scaf",
+  "license": "Apache-2.0",
+  "keywords": ["ai-agent", "scaffolding", "best-practices", "compliance", "tier-1"]
+}
